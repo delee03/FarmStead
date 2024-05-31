@@ -1,6 +1,18 @@
- * {
-    font-family: "Volkhov", serif;
- }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Volkhov", serif;
+}
+
+p,
+a {
+  font-family: "Source Sans Pro", sans-serif;
+}
+a{
+  text-decoration: none;
+}
  
  
  header .navbar h1 a {
@@ -57,10 +69,10 @@
  header .nav-item:nth-child(2) i:hover {
     color: #fb811e;
  }
-
+/* 
  header .nav-item:last-child .dropdown {
     
- }
+ } */
 
 
 
@@ -91,4 +103,46 @@
    vertical-align: middle;
    font-size: 15px;
    text-transform: capitalize;
+ }
+
+ /* welcome */
+ .welcome img {
+   max-width: 100%;
+   display: block;
+   border-radius: 8px;
+   width: 100%;
+
+ }
+ .content-title {
+   font-size: 40px;
+   line-height: 50px;
+   font-weight: 600;
+   color: #060606;
+ }
+ .small-title {
+   color: #fb811e;
+   font-size: 22px;
+ }
+
+ .p-paragraph {
+   font-size: 17px;
+   line-height: 27px;
+   color: #707070;
+ }
+
+ .btn-style {
+   transition: all 0.5s;
+   font-size: 16px;
+   line-height: 26px;
+   text-transform: uppercase;
+   padding: 12px 30px;
+   font-weight: 600;
+   background: #fb811e;
+   border: none;
+   color: #fff;
+   border-radius: 30px;
+ }
+ .btn-style:hover {
+   background: #009f4d;
+   color: #ffffff;
  }
