@@ -146,3 +146,25 @@ a{
    background: #009f4d;
    color: #ffffff;
  }
+
+ .stats span.fa {
+   color: #009f4d;
+   text-align: center;
+   width: 80px;
+   height: 80px;
+   line-height: 80px;
+   border-radius: 50%;
+   background: rgb(0 159 77 / 4%);
+   font-size: 32px;
+ }
+
+ .stats .number {
+   font-size: 3em;
+   font-weight: 600;
+   color: #060606;
+ }
+ .stats p.count-text {
+   text-transform: uppercase;
+   color: #060606;
+   font-size: 17px;
+ }
