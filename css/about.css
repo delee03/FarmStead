@@ -10,65 +10,67 @@ p,
 a {
   font-family: "Source Sans Pro", sans-serif;
 }
-a{
+
+a {
   text-decoration: none;
 }
- 
- 
- header .navbar h1 a {
-    position: relative;
-    font-size: 32px;
-    color: #fb811e;
-    transition: all 0.5s;
-    font-weight: 600;
- }
-
- header .navbar h1 a i::before {
-    position: absolute;
-    top: 0;
-    left: 55px;
-    font-size: 20px;
- }
-
- header .nav_right {
-    justify-content: flex-end;
-    align-items: center;
- }
-
- header .nav_right .nav-item {
-    margin-left: 20px;
-    cursor: pointer;
- }
 
 
- header .nav-item:first-child form input {
-    background: url(./../img/search.png) no-repeat 10px center;
-    border: solid 1px #eee;
-    width: 35px;
-    height: 35px;
-    border-radius: 10em;
-    transition: all 0.5s;
-    cursor: pointer;
- }
+header .navbar h1 a {
+  position: relative;
+  font-size: 32px;
+  color: #fb811e;
+  transition: all 0.5s;
+  font-weight: 600;
+}
 
- header .nav-item:first-child form input:focus {
-    width: 200px;
-    padding-left: 32px;
-    color: #000;
-    background-color: #fff;
-    cursor: auto;
-    padding-right: 15px;
- }
+header .navbar h1 a i::before {
+  position: absolute;
+  top: 0;
+  left: 55px;
+  font-size: 20px;
+}
 
- header .nav-item:nth-child(2) i {
-    margin: 10px 0;
-    color: black;
-    transition: all 0.3s;
- }
+header .nav_right {
+  justify-content: flex-end;
+  align-items: center;
+}
 
- header .nav-item:nth-child(2) i:hover {
-    color: #fb811e;
- }
+header .nav_right .nav-item {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+header .nav-item:first-child form input {
+  background: url(./../img/search.png) no-repeat 10px center;
+  border: solid 1px #eee;
+  width: 35px;
+  height: 35px;
+  border-radius: 10em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+header .nav-item:first-child form input:focus {
+  width: 200px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+  padding-right: 15px;
+}
+
+header .nav-item:nth-child(2) i {
+  margin: 10px 0;
+  color: black;
+  transition: all 0.3s;
+}
+
+header .nav-item:nth-child(2) i:hover {
+  color: #fb811e;
+}
+
 /* 
  header .nav-item:last-child .dropdown {
     
@@ -76,95 +78,242 @@ a{
 
 
 
- /* about css */
- .banner {
-   background-image: url(./../img/inner-banner.png);
-   background-repeat: no-repeat;
-   background-position: bottom;
-   background-size: cover;
-   position: relative;
-   z-index: 0;
- }
- .banner .breadcrumb {
-   margin: 0 auto;
- }
+/* about css */
+.banner {
+  background-image: url(./../img/inner-banner.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
 
- .banner .breadcrumb a {
-   font-weight: bold;
-   text-decoration: none;
-   color: #707070;
- }
+.banner .breadcrumb {
+  margin: 0 auto;
+}
 
- .banner .breadcrumb_path {
-   line-height: 1.5;
-   color: #707070;
-   position: relative;
-   display: inline-block;
-   vertical-align: middle;
-   font-size: 15px;
-   text-transform: capitalize;
- }
+.banner .breadcrumb a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #707070;
+}
 
- /* welcome */
- .welcome img {
-   max-width: 100%;
-   display: block;
-   border-radius: 8px;
-   width: 100%;
+.banner .breadcrumb_path {
+  line-height: 1.5;
+  color: #707070;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: capitalize;
+}
 
- }
- .content-title {
-   font-size: 40px;
-   line-height: 50px;
-   font-weight: 600;
-   color: #060606;
- }
- .small-title {
-   color: #fb811e;
-   font-size: 22px;
- }
+/* welcome */
+.welcome img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+  width: 100%;
 
- .p-paragraph {
-   font-size: 17px;
-   line-height: 27px;
-   color: #707070;
- }
+}
 
- .btn-style {
-   transition: all 0.5s;
-   font-size: 16px;
-   line-height: 26px;
-   text-transform: uppercase;
-   padding: 12px 30px;
-   font-weight: 600;
-   background: #fb811e;
-   border: none;
-   color: #fff;
-   border-radius: 30px;
- }
- .btn-style:hover {
-   background: #009f4d;
-   color: #ffffff;
- }
+.content-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #060606;
+}
 
- .stats span.fa {
-   color: #009f4d;
-   text-align: center;
-   width: 80px;
-   height: 80px;
-   line-height: 80px;
-   border-radius: 50%;
-   background: rgb(0 159 77 / 4%);
-   font-size: 32px;
- }
+.small-title {
+  color: #fb811e;
+  font-size: 22px;
+}
 
- .stats .number {
-   font-size: 3em;
-   font-weight: 600;
-   color: #060606;
- }
- .stats p.count-text {
-   text-transform: uppercase;
-   color: #060606;
-   font-size: 17px;
- }
+.p-paragraph {
+  font-size: 17px;
+  line-height: 27px;
+  color: #707070;
+}
+
+.btn-style {
+  transition: all 0.5s;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  font-weight: 600;
+  background: #fb811e;
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.btn-style:hover {
+  background: #009f4d;
+  color: #ffffff;
+}
+
+.stats span.fa {
+  color: #009f4d;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: rgb(0 159 77 / 4%);
+  font-size: 32px;
+}
+
+.stats .number {
+  font-size: 3em;
+  font-weight: 600;
+  color: #060606;
+}
+
+.stats p.count-text {
+  text-transform: uppercase;
+  color: #060606;
+  font-size: 17px;
+}
+
+/* team */
+.team {
+  background-color: #009f4d;
+}
+
+.team .title_bg {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  z-index: 0;
+  opacity: 0.14;
+  font-size: 12vw;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+}
+
+.team .team_bg {
+  background: #fff;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.team .team_item {
+  overflow: hidden;
+}
+.team .team_item img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.team .team_bg .team_item,
+.team .team_bg .team_item .team-item_img {
+  position: relative;
+}
+
+.team .team_item .team_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(8 8 8 / 54%);
+  opacity: 0;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+.team .team_item .team_overlay .overlay_title {
+  position: absolute;
+  width: 100%;
+  transform: translateY(-55%);
+  padding: 0 20px;
+  transition: all 0.3s;
+}
+
+.team .team_item .team_overlay .overlay_link {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(45%);
+  transition: all 0.3s;
+  font-size: 35px;
+}
+
+.team .team_item .team_overlay .overlay_title h4 {
+  margin-bottom: 4px;
+  
+}
+
+.team .team_item .team_overlay .overlay_title h4 a {
+  font-family: "Volkhov", serif;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.team .team_item .team_overlay .overlay_title p {
+  color: #fff;
+  font-size:1rem;
+}
+
+.team .team_item .team_overlay .overlay_link a {
+  margin: 0 10px;
+  color: #1e272e;
+  font-size: 16px;
+}
+
+
+
+
+.team .team-item_title span {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 1px;
+  display: block;
+}
+
+.team .team-item_title h5 a {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  color: #060606;
+  font-size: 21px;
+  transition: all 0.5s;
+}
+
+.team .team_item .team_overlay .overlay_title,
+.team .team_item .team_overlay .overlay_title h4,
+.team .team_item .team_overlay .overlay_link a{
+  text-align: center;
+  color: #1e272e;
+}
+
+.team .team_item:hover .team_overlay,
+.team .team_item:hover .team_overlay .overlay_title,
+.team .team_item:hover .team_overlay .overlay_link {
+  opacity: 1;
+}
+
+.team .team_item:hover .team_overlay .overlay_link {
+  transform: translateY(-10px);
+}
+
+.team .team_item:hover .team_overlay .overlay_link span.fa {
+  color: #fff;
+}
+
+.team .team_item:hover .team_overlay .overlay_title {
+  transform: translateY(70px);
+}
+
+.team .team_bg a:hover,
+.team .team_item .team_overlay .overlay_title h4 a:hover,
+.team .team_item .team_overlay .overlay_link a span.fa:hover {
+  color: #fb811e;
+}
