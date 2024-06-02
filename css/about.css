@@ -503,3 +503,160 @@ button.mfp-close, button.mfp-arrow {
   box-sizing: border-box;
   z-index: -1;
 }
+
+/* carousel */
+.about_carousel {
+  background: url(../img/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.about_carousel::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(8 8 8 / 44%);
+  z-index: -1;
+}
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousel {
+  width: 100%;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+  touch-action: manipulation;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+}
+.testimonial-content {
+  max-width: 900px;
+  margin: auto;
+}
+.about_carousel .testi-des {
+  text-align: center;
+}
+a.testi-img {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50%;
+}
+.about_carousel .testimonial img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.about_carousel .testimonial .peopl {
+  margin: 0;
+}
+.about_carousel .testimonial .peopl h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+.about_carousel p.identity {
+  color: #fff;
+  font-size: 16px;
+}
+.about_carousel span.fa {
+  font-size: 20px;
+  color: #fb811e;
+  font-weight: 600;
+  display: inline-block;
+}
+.fa-quote-left:before {
+  content: "";
+}
+.about_carousel blockquote q {
+  font-size: 22px;
+  line-height: 34px;
+  color: #fff;
+  text-indent: 30px;
+  display: block;
+}
+.about_carousel .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px;
+  bottom: -90px;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  background: transparent;
+}
+.about_carousel .owl-theme .owl-dots .owl-dot.active span,
+.about_carousel .owl-theme .owl-dots .owl-dot:hover span {
+  background: #fb811e;
+  opacity: 1;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  border: none;
+}
+.about_carousel span.fa {
+  font-size: 20px;
+  color: #fb811e;
+  font-weight: 600;
+  display: inline-block;
+}
+.about_carousel blockquote {
+  margin: 0 0 1rem;
+}
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+.owl-carousel,
+.owl-carousel .owl-item {
+  position: relative;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  text-align: center;
+}
+.about_carousel .owl-dots {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  background: none;
+}
+.w3l-clients-1 .owl-theme .owl-dots .owl-dot span {
+  background: #fff;
+  opacity: 0.3;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 1px;
+  background: #aaa;
+  display: block;
+  transition: opacity 0.2s ease;
+  position: relative;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+#owl-demo2 > div.owl-dots > button {
+  padding: 5px;
+}
