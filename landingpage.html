@@ -75,12 +75,9 @@
 
     <body>
         <!-- header-start -->
-        <header>
+        <header class="fixed-top">
             <div class="container-fluid">
-                <nav
-                    id="navbarScroll"
-                    class="navbar navbar-expand-lg mx-auto bg-transparent"
-                >
+                <nav id="navbarScroll" class="navbar navbar-expand-lg mx-auto">
                     <div class="container">
                         <a class="navbar-brand" href="#">
                             Farmstead
@@ -101,7 +98,7 @@
                             class="collapse navbar-collapse justify-content-end align-items-center"
                             id="navbarNavDropdown"
                         >
-                            <ul class="navbar-nav position-fixed">
+                            <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <!-- <a
                                         class="nav-link active"
@@ -109,7 +106,10 @@
                                         href="#"
                                         >Home</a> -->
                                     <div class="header-search">
-                                        <i class="fa-solid fa-magnifying-glass">
+                                        <i
+                                            id="faSearch"
+                                            class="fa-solid fa-magnifying-glass"
+                                        >
                                             <!-- <form
                                                 action="#"
                                                 method="GET"
@@ -125,7 +125,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <div class="mode">
+                                    <div class="mode" id="mode">
                                         <i data-feather="moon"></i>
                                     </div>
                                 </li>
@@ -138,7 +138,10 @@
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        <i class="fa-solid fa-bars"></i>
+                                        <i
+                                            id="dropdown"
+                                            class="fa-solid fa-bars"
+                                        ></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -297,11 +300,11 @@
                     <div class="fresh-top position-relative pb-xl-5 mb-xl-4">
                         <h2 class="title position-absolute">Services</h2>
                         <div class="row align-items-center">
-                            <div class="col-md-6 left">
+                            <div class="col-12 col-md-6 left">
                                 <span> What we do </span>
                                 <h3>Why Choose Our Fresh Organic Foods</h3>
                             </div>
-                            <div class="col-md-6 right">
+                            <div class="col-12 col-md-6 right">
                                 <p class="text-white fw-light fs-5">
                                     Sed ut perspiciatis unde omnis iste natus
                                     error sit accusantium doloremque, eaque ipsa
@@ -313,7 +316,7 @@
                         </div>
                     </div>
                     <div class="fresh-bot row">
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="card">
                                 <img
                                     class="card-img-top"
@@ -333,7 +336,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="card">
                                 <img
                                     class="card-img-top"
@@ -351,7 +354,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="card">
                                 <img
                                     class="card-img-top"
@@ -439,6 +442,241 @@
         </section>
         <!-- About end -->
 
+        <!-- feature start -->
+        <section class="section feature">
+            <div class="container">
+                <div class="content-fea row g-sm-3 g-lg-5">
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img5.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Agriculture</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex align-items-center">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img6.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Fresh</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex align-items-center">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img7.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Natural</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex align-items-center">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img8.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Farm</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex align-items-center">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img9.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Organic</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-item">
+                        <a href="#!" class="d-flex align-items-center">
+                            <div class="col-3">
+                                <img
+                                    src="./img/img10.png"
+                                    alt=""
+                                    class="img-fluid"
+                                />
+                            </div>
+                            <div class="col-9">
+                                <h4>Dairy</h4>
+                                <p>
+                                    Ras effic itur metusga via suscipit
+                                    consectetur adipisicing unde omnis.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- feature end-->
+
+        <!-- Gallery start -->
+        <section class="gallery section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <span>Gallery</span>
+                            <h3>Our Products</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quam?
+                            </p>
+                            <a href="#" class="btn btn-farm">Discover</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g2.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g2.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Fresh carrot</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g3.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g3.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Strawberry</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g6.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g6.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Our farm</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g5.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g5.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Fresh Apples</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g1.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g1.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Awesome Fields</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g7.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g7.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Fresh Grapes</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 gallery-item">
+                        <div class="item-content">
+                            <a href="./img/g8.jpg">
+                                <figure>
+                                    <img
+                                        src="./img/g8.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                    <figcaption>Hot papper</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery end -->
+
         <!-- Jquery lib -->
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -494,22 +732,6 @@
                     infinite: true,
                     dots: true,
                 });
-            });
-        </script>
-        <script>
-            document
-                .querySelectorAll("a.dropdown-toggle")
-                .forEach(function (element) {
-                    element.addEventListener("click", function () {
-                        // Xóa thuộc tính 'data-poper-static' từ the ul
-                        document
-                            .querySelector(".dropdown-menu")
-                            .removeAttribute("data-bs-popper");
-                    });
-                });
-
-            document.addEventListener("DOMContentLoaded", function () {
-                validateQuantity();
             });
         </script>
     </body>
