@@ -304,3 +304,26 @@ header.nav-fixed {
   border-bottom: 1px solid #eeeeee;
   list-style: none;
 }
+
+.page span,
+
+.page a {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px 17px;
+}
+.page span {
+  background-color: #009f4d;
+  color: #eeeeee;
+}
+.page a {
+  color: #060606;
+}
+.page a:hover {
+  transition: all 0.5s;
+}
+.page a:hover {
+  background-color: #009f4d;
+  color: #eeeeee;
+}
