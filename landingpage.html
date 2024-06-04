@@ -70,6 +70,12 @@
             rel="stylesheet"
         />
 
+        <!-- FANCY BOX -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+        />
+
         <link rel="stylesheet" href="./css/landing.css" />
     </head>
 
@@ -562,12 +568,12 @@
         <!-- Gallery start -->
         <section class="gallery section">
             <div class="container">
-                <div class="row">
+                <div class="row g-0">
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
                             <span>Gallery</span>
                             <h3>Our Products</h3>
-                            <p>
+                            <p class="mt-2">
                                 Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Quam?
                             </p>
@@ -576,13 +582,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g2.jpg">
+                            <a
+                                href="./img/g2.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g2.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g2.jpg" alt="" />
                                     <figcaption>Fresh carrot</figcaption>
                                 </figure>
                             </a>
@@ -590,13 +596,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g3.jpg">
+                            <a
+                                href="./img/g3.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g3.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g3.jpg" alt="" />
                                     <figcaption>Strawberry</figcaption>
                                 </figure>
                             </a>
@@ -604,13 +610,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g6.jpg">
+                            <a
+                                href="./img/g6.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g6.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g6.jpg" alt="" />
                                     <figcaption>Our farm</figcaption>
                                 </figure>
                             </a>
@@ -618,13 +624,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g5.jpg">
+                            <a
+                                href="./img/g5.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g5.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g5.jpg" alt="" />
                                     <figcaption>Fresh Apples</figcaption>
                                 </figure>
                             </a>
@@ -632,13 +638,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g1.jpg">
+                            <a
+                                href="./img/g1.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g1.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g1.jpg" alt="" />
                                     <figcaption>Awesome Fields</figcaption>
                                 </figure>
                             </a>
@@ -646,13 +652,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g7.jpg">
+                            <a
+                                href="./img/g7.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g7.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g7.jpg" alt="" />
                                     <figcaption>Fresh Grapes</figcaption>
                                 </figure>
                             </a>
@@ -660,13 +666,13 @@
                     </div>
                     <div class="col-6 col-lg-3 gallery-item">
                         <div class="item-content">
-                            <a href="./img/g8.jpg">
+                            <a
+                                href="./img/g8.jpg"
+                                data-fancybox="gallery"
+                                data-caption="Caption #1"
+                            >
                                 <figure>
-                                    <img
-                                        src="./img/g8.jpg"
-                                        alt=""
-                                        class="img-fluid"
-                                    />
+                                    <img src="./img/g8.jpg" alt="" />
                                     <figcaption>Hot papper</figcaption>
                                 </figure>
                             </a>
@@ -676,6 +682,404 @@
             </div>
         </section>
         <!-- Gallery end -->
+
+        <!-- Testimonial start -->
+        <section class="section testimonial">
+            <div class="customer m-auto">
+                <div class="customer-content row d-flex align-items-center">
+                    <div class="col-12 col-lg-4 item-left text-center">
+                        <img src="./img/testi1.jpg" alt="" class="img-fluid" />
+                        <h5>Dennis Wilson</h5>
+                        <span>Customer</span>
+                    </div>
+                    <div class="col-12 col-lg-8 item-right text-center">
+                        <blockquote>
+                            <span class="fa fa-quote-left"></span>
+                            <p>
+                                "Lorem ipsum dolor sit amet int consectetur
+                                adipisicing elit. Velita beatae laudantium Quas
+                                minima sunt natus tempore, maiores aliquid modi
+                                felis sequi optio lacinia id ipsum non velit,
+                                culpa. voluptate rem ullam dolore nisi est
+                                quasi, doloribus tempora. est elit. Non quae,
+                                fugiat ad libero justo sed amet."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="customer-content row d-flex align-items-center">
+                    <div class="col-12 col-lg-4 item-left text-center">
+                        <img src="./img/testi2.jpg" alt="" />
+                        <h5>Dennis Wilson</h5>
+                        <span>Customer</span>
+                    </div>
+                    <div class="col-12 col-lg-8 item-right text-center">
+                        <blockquote>
+                            <span class="fa fa-quote-left"></span>
+                            <p>
+                                "Lorem ipsum dolor sit amet int consectetur
+                                adipisicing elit. Velita beatae laudantium Quas
+                                minima sunt natus tempore, maiores aliquid modi
+                                felis sequi optio lacinia id ipsum non velit,
+                                culpa. voluptate rem ullam dolore nisi est
+                                quasi, doloribus tempora. est elit. Non quae,
+                                fugiat ad libero justo sed amet."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="customer-content row d-flex align-items-center">
+                    <div class="col-12 col-lg-4 item-left text-center">
+                        <img src="./img/testi3.jpg" alt="" />
+                        <h5>Dennis Wilson</h5>
+                        <span>Customer</span>
+                    </div>
+                    <div class="col-12 col-lg-8 item-right text-center">
+                        <blockquote>
+                            <span class="fa fa-quote-left"></span>
+                            <p>
+                                "Lorem ipsum dolor sit amet int consectetur
+                                adipisicing elit. Velita beatae laudantium Quas
+                                minima sunt natus tempore, maiores aliquid modi
+                                felis sequi optio lacinia id ipsum non velit,
+                                culpa. voluptate rem ullam dolore nisi est
+                                quasi, doloribus tempora. est elit. Non quae,
+                                fugiat ad libero justo sed amet."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial end -->
+
+        <!-- Our team start -->
+        <section class="section ourteam">
+            <div class="container">
+                <div class="team-content">
+                    <div class="team-top position-relative pb-xl-5 mb-xl-4">
+                        <h2 class="title position-absolute">Team</h2>
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6 left">
+                                <span class="mb-2">Our Team </span>
+                                <h3>Experienced and <br />Professional Team</h3>
+                            </div>
+                            <div class="col-12 col-md-6 right">
+                                <p class="text-white fw-light fs-5">
+                                    Sed ut perspiciatis unde omnis iste natus
+                                    error sit accusantium doloremque, eaque ipsa
+                                    quae ab illo inventore.Sed ut perspiciatis
+                                    unde omnis iste natus error sit. error sit
+                                    accusantium doloremque,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-bot">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 member">
+                                <div class="card">
+                                    <div class="img-thumb">
+                                        <img
+                                            class="card-img-top"
+                                            src="./img/team1.jpg"
+                                            alt="Title"
+                                        />
+                                        <div class="overplay">
+                                            <div class="title">
+                                                <h4 class="fw-bold">Meet me</h4>
+                                                <p class="text-white">
+                                                    Lorem ipsum dolor sit
+                                                    amet,Ea consequuntur
+                                                </p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-facebook-f"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-twitter"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-google-plus-g"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">Shona Leer</h4>
+                                        <p class="card-text">FOOD PRODUCTION</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 member">
+                                <div class="card">
+                                    <div class="img-thumb">
+                                        <img
+                                            class="card-img-top"
+                                            src="./img/team2.jpg"
+                                            alt="Title"
+                                        />
+                                        <div class="overplay">
+                                            <div class="title">
+                                                <h4 class="fw-bold">Meet me</h4>
+                                                <p class="text-white">
+                                                    Lorem ipsum dolor sit
+                                                    amet,Ea consequuntur
+                                                </p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-facebook-f"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-twitter"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-google-plus-g"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">Brock Lee</h4>
+                                        <p class="card-text">FARMER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 member">
+                                <div class="card">
+                                    <div class="img-thumb">
+                                        <img
+                                            class="card-img-top"
+                                            src="./img/team3.jpg"
+                                            alt="Title"
+                                        />
+                                        <div class="overplay">
+                                            <div class="title">
+                                                <h4 class="fw-bold">Meet me</h4>
+                                                <p class="text-white">
+                                                    Lorem ipsum dolor sit
+                                                    amet,Ea consequuntur
+                                                </p>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-facebook-f"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-twitter"
+                                                    ></i
+                                                ></a>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa-brands fa-google-plus-g"
+                                                    ></i
+                                                ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h4 class="card-title">Maya Dias</h4>
+                                        <p class="card-text">HARVESTER</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our team end -->
+
+        <!-- Contact -->
+        <section class="section contact">
+            <div class="contact-top">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-12 col-lg-5">
+                            <div class="heading">
+                                <span>Get in touch</span>
+                                <h3>Contact Us</h3>
+                            </div>
+                            <ul style="list-style: none" class="ps-0">
+                                <li class="d-flex align-items-top mt-2 pt-lg-2">
+                                    <i class="fa fa-globe"></i>
+                                    <div class="ms-3">
+                                        <h4>Company Address</h4>
+                                        <p>
+                                            <a href="#"
+                                                >1001, 5th Avenue, 12202 street,
+                                                USA.</a
+                                            >
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-top mt-2 pt-lg-2">
+                                    <i class="fa fa-phone"></i>
+                                    <div class="ms-3">
+                                        <h4>Call us</h4>
+                                        <p>
+                                            <a href="#">+1(21) 234 4567</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-top mt-2 pt-lg-2">
+                                    <i class="fa fa-envelope-open"></i>
+                                    <div class="ms-3">
+                                        <h4>Email Us</h4>
+                                        <p>
+                                            <a href="#">example@mail.com</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-top mt-2 pt-lg-2">
+                                    <i class="fa fa-headphones"></i>
+                                    <div class="ms-3">
+                                        <h4>Customer Support</h4>
+                                        <p>
+                                            <a href="#">
+                                                Customer Support
+                                                info@support.com</a
+                                            >
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <form action="" method="post" class="fomr-sign-in">
+                                <input
+                                    type="text"
+                                    class="contact-input"
+                                    placeholder="Your name*"
+                                /><input
+                                    type="text"
+                                    class="contact-input"
+                                    placeholder="Your email*"
+                                /><input
+                                    type="text"
+                                    class="contact-input"
+                                    placeholder="Subject*"
+                                /><input
+                                    type="text"
+                                    class="contact-input"
+                                    placeholder="Website URL*"
+                                />
+                                <textarea
+                                    type="textarea"
+                                    class="form-input"
+                                    placeholder="Type your message"
+                                >
+    Type your message here*               
+                                </textarea>
+                                <a href="#" class="btn btn-farm mt-3"
+                                    >SEND MESSAGE</a
+                                >
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-bot">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl"
+                    width="100%"
+                    height="400"
+                    frameborder="0"
+                    style="border: 0px"
+                    allowfullscreen=""
+                ></iframe>
+            </div>
+        </section>
+        <!-- Contact end -->
+
+        <footer >
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-foot">
+                        <div class="title">
+                            <h3>
+                                FIND US
+                            </h3>
+                        </div>
+                        <div class="item">
+                            <p>
+                                Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.
+                            </p>
+                            <p class="mt-3"><a href=#">Phone: +12 23456790</a></p>
+                            <p class="mt-3"><a href="#">Email: info@example.com</a></p>
+                            <p class="mt-3"><a href="#">Fax: + 11 367 21890</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-foot">
+                        <div class="logo">
+                            <a class="navbar-brand" href="#">
+                                Farmstead
+                                <i class="fa fa-leaf" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <p>
+                                Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.
+
+© 2024 Farmstead. All Rights
+                            </p>
+                            <p class="mt-3">© 2024 Farmstead. All Rights Reserved | WordPress Theme by <a href="#">W3Layouts ft Thuận Phát</a>.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-foot ">
+                        <div class="title">
+                            <h3>
+                                NEWSLETTER
+                            </h3>
+                        </div>
+                        <div class="item">
+                            <p>
+                                Subscribe to our mailing list and get updates to your email inbox.
+                            </p>
+                            <div class="letter" >
+                                <input
+                                    type="text"
+                                    
+                                    name=""
+                                    id=""
+                                    aria-describedby="helpId"
+                                    placeholder=""
+                                />
+                               <button>
+                                <i class="fa fa-paper-plane"></i>
+                                
+                            </button>
+                            </div>
+                            <ul class="d-flex align-items-lg-start ps-0" style="list-style: none;">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!-- Jquery lib -->
         <script
@@ -704,6 +1108,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         ></script>
+        <!-- Slick Carousel -->
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
             integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
@@ -717,9 +1122,13 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         ></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
         <script src="./js/main.js"></script>
         <script>
             feather.replace();
+            Fancybox.bind("[data-fancybox]", {
+                // Your custom options
+            });
         </script>
         <script>
             $(document).ready(function () {
@@ -729,6 +1138,15 @@
                     slideToScroll: 1,
                     autoplaySpeed: 2000,
                     arrow: false,
+                    infinite: true,
+                    dots: true,
+                });
+                $(".customer").slick({
+                    slidesToShow: 1,
+                    autoplay: false,
+                    slideToScroll: 1,
+                    autoplaySpeed: 1500,
+                    arrows: false,
                     infinite: true,
                     dots: true,
                 });
