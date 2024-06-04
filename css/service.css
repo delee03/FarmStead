@@ -189,3 +189,27 @@ header.nav-fixed {
     line-height: 27px;
     color: #707070;
 }
+
+.why h5 {
+    color: #fb811e;
+    font-size: 22px;
+}
+
+.why h3 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #060606;
+}
+
+.content_info span.fa {
+    font-size: 30px;
+    color: #fb811e;
+    margin-right: 10px;
+}
+
+.content_info h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
