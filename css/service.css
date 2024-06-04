@@ -1,0 +1,191 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Volkhov", serif;
+}
+
+p,
+a {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header.main-header {
+    background-color: transparent;
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 90px;
+    display: grid;
+    align-items: center;
+}
+
+header .navbar h1 a {
+    position: relative;
+    font-size: 32px;
+    color: #fb811e;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+header .navbar h1 a i::before {
+    position: absolute;
+    top: 0;
+    left: 55px;
+    font-size: 20px;
+}
+
+header .nav_right {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .nav_right .nav-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+header .nav-item:first-child form input {
+    background: url(./../img/search.png) no-repeat 10px center;
+    border: solid 1px #eee;
+    width: 35px;
+    height: 35px;
+    border-radius: 10em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+header .nav-item:first-child form input:focus {
+    width: 200px;
+    padding-left: 32px;
+    color: #000;
+    background-color: #fff;
+    cursor: auto;
+    padding-right: 15px;
+    border: solid 1px #eee;
+}
+
+header .nav-item:nth-child(2) i {
+    margin: 10px 0;
+    color: black;
+    transition: all 0.3s;
+}
+
+header .nav-item:nth-child(2) i:hover {
+    color: #fb811e;
+}
+
+
+header .nav-item:nth-child(3) button {
+    border: none;
+}
+
+header .nav-item:nth-child(3) i {
+    color: #fff;
+    transition: all 0.3s;
+    font-size: 29px;
+}
+
+header.nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+    transition: all 0.5s;
+}
+
+/* 
+ header .nav-item:last-child .dropdown {
+    
+ } */
+
+
+
+/* about css */
+.banner {
+    background-image: url(./../img/inner-banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.banner .breadcrumb {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.banner .breadcrumb a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #707070;
+    transition: all 0.5s;
+}
+
+
+.banner .breadcrumb a:hover {
+    color: #fb811e;
+}
+
+.banner .breadcrumb_path {
+    line-height: 1.5;
+    color: #707070;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/* service */
+.service .card_box {
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
+    cursor: pointer;
+}
+
+.service .card_box:hover {
+    transition: 0.3s;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 17%);
+}
+
+.service .card_box i {
+    font-size: 45px;
+    color: #fb811e;
+}
+
+.service .card_box h4 a.title {
+    margin-top: 25px;
+    display: block;
+    color: #060606;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    font-family: "Volkhov", serif;
+    transition: all 0.5s;
+}
+
+.service .card_box h4 a.title:hover {
+    color: #fb811e;
+}
+
+.p-paragraph {
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
