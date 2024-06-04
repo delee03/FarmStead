@@ -176,13 +176,13 @@ header.nav-fixed {
     color: black;
     font-weight: 700;
     transition: all 0.5s;
-  }
+}
 
-  .blog_card .blog_card_content a.desc:hover {
+.blog_card .blog_card_content a.desc:hover {
     color: #fb811e;
-  }
+}
 
-  .btn-style {
+.btn-style {
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
@@ -194,8 +194,113 @@ header.nav-fixed {
     border-radius: 30px;
     transition: all 0.5s;
     width: 145px;
-  }
-  .btn-style:hover {
+}
+
+.btn-style:hover {
     background: #009f4d;
     color: #ffffff;
-  }
+}
+
+/* blog right */
+.blog_right a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog_right .title-h2 {
+    font-size: 22px;
+    line-height: 32px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.blog_right .search_form lable {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.blog_right .right_search .input_search {
+    border: 1px solid #eee;
+    width: 298px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+}
+
+.blog_right .right_search .input_search:focus {
+    border: 1px solid #434242;
+}
+
+.blog_right .right_search .submit {
+    padding: 10px;
+    margin-left: -67px;
+    color: #ffffff;
+    background-color: #fb811e;
+    border: none;
+    border-radius: 5px;
+}
+
+.right_sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.blog_right .right_post {
+    
+    margin-top: 10px;
+}
+
+.blog_right .right_post a {
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.blog_right .right_post a:hover {
+    color: #fb811e;
+}
+
+.blog_right ul {
+    margin: 0;
+    padding: 0;
+}
+
+.blog_right .right_cmt {
+    margin: 20px 0;
+}
+
+.blog_right .right_cmt ul li {
+    padding: 10px 0;
+    list-style: none;
+    color: #707070;
+}
+
+.blog_right .right_cmt a {
+    color: #fb811e;
+    font-weight: 600;
+}
+
+.blog_right .right_cmt a:hover {
+    text-decoration: underline;
+}
+
+.blog_right .right_arch,
+.blog_right .right_cate,
+.blog_right .right_meta {
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.blog_right .right_post li,
+.blog_right .right_arch li,
+.blog_right .right_cate li,
+.blog_right .right_meta li {
+  border-bottom: 1px solid #eeeeee;
+  list-style: none;
+}
