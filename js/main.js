@@ -36,3 +36,13 @@ document.querySelectorAll("a.dropdown-toggle").forEach(function (element) {
             .removeAttribute("data-bs-popper");
     });
 });
+
+//Bắt sự kiện click vào header active
+// var item = document.querySelector(".dropdown-item");
+// for(let i = 0; i< 8; i++){
+
+// }
+
+// item.onclick = function(){
+//     item.classList.add("active");
+// }

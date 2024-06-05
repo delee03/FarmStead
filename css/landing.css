@@ -135,6 +135,10 @@ header .navbar-brand i {
     width: 28px;
     color: white;
     font-size: 21px;
+    transition: ease-in .4s;
+}
+.navbar-nav .mode:hover {
+    color: var(--primary-color);
 }
 .navbar-nav .dropdown i {
     font-size: 25px;
@@ -166,15 +170,20 @@ header .navbar-brand i {
 .navbar-nav .dropdown .dropdown-menu li a:focus {
     color: var(--primary-color);
 }
-.navbar-nav .dropdown .dropdown-menu li a:active {
-   
-  
-    background-color: #fff;
-}
 
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #fff !important;
+}
 .navbar-nav .dropdown .dropdown-menu li a:hover {
     color: var(--primary-color);
 }
+.dropdown-item.active, .dropdown-item:active {
+    /* color: var(--bs-dropdown-link-active-color); */
+    text-decoration: none;
+    /* background-color: var(--bs-dropdown-link-active-bg); */
+    color: var(--primary-color) !important;
+}
+/* =====================LANDING PAGE & HOME========================= */
 
 .banner {
     min-height: 100vh;
@@ -861,7 +870,7 @@ footer .footer-content {
 }
 
 /* footer end */
-
+/* =====================Landing Page========================= */
 
 
 /* Back to top */
@@ -892,5 +901,70 @@ footer .footer-content {
   .cd-top--fade-out { 
     opacity: .5;
   }
+  /* Back to top end */
 
+/* Breadcrum start */
+.breadcrumb {
+    background-image: url("../img/inner-banner.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.breadcrumb-title {
+    display: block;
+    margin-top: 150px;
+}
+
+.breadcrumb-title h4 {
+    font-weight:700;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+.breadcrumb-title a {
+    color: var(--font-color);
+    font-weight: 700;
+
+}
+.breadcrumb-title a span {
+    color: var(--font-color);
+    font-weight: 500;
+}
+/* Breadcrum end */
+
+
+/* =====================HOME========================= */
+
+.welcome .grid-content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.welcome .grid-content .item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75px;
+
+}
+.welcome .grid-content .item {
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem var(--shadow-color);
+    background-color: var(--bg-color);
+    transition: all .4s;
+}
+.welcome .grid-content .item  a {
+    display: block;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #040a17;
+}
+
+.welcome .grid-content .item:hover {
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+
+/* =====================HOME========================= */
 /*  https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/video.jpg */
