@@ -712,7 +712,6 @@ header .navbar-brand i {
     color: white;
     text-align: center;
 }
-q
 .img-thumb .overplay .title:hover h4 {
 
     color: var(--primary-color);
@@ -817,7 +816,7 @@ footer .footer-content {
 .footer-content .item .letter {
     background: var(--bg-grey);
     border: none;
-    padding: 12px 20px;
+    padding: 0px 20px;
     font-size: 16px;
     outline: none;
     width: 80%;
@@ -844,6 +843,54 @@ footer .footer-content {
     background: rgb(255 201 69 / 19%);
     box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
 }
+.footer-content .item  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background: var(--secondary-color);
+    color: white;
+    width: 20%;
+    border-radius: 0 50px 50px 0;
+    margin-left: 73px;
+    border: none;
+}
+
+.footer-content .item  input {
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    border: none;
+}
+
 /* footer end */
+
+
+
+/* Back to top */
+.backtotop {
+    position: fixed;
+    right: 40px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 50px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    visibility: hidden;
+    z-index: 1000;
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  .backtotop:hover {
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    opacity: .5;
+  }
 
 /*  https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/video.jpg */
