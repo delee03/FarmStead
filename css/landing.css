@@ -231,6 +231,7 @@ header .navbar-brand i {
 
 .banner .banner-right .slide-content .item {
     height: 100vh;
+    width: 100vw;
     position: relative;
 
 }
@@ -305,6 +306,7 @@ header .navbar-brand i {
 /* Fresh start */
 .fresh {
     background-color: var(--secondary-color);
+    padding-bottom: 100px;
 }
 .fresh .fresh-top .left span {
     color: #fff;
@@ -438,6 +440,7 @@ header .navbar-brand i {
 /* feature start */
 .feature {
     margin: 50px 0;
+    
 }
 .content-fea {
     display: flex;
