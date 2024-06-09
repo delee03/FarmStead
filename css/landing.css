@@ -236,9 +236,9 @@ header .navbar-brand i {
 
 }
 .banner .banner-right .slide-content .item img {
-     position: absolute;
-     width: 200px;
-     height: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
     border-bottom-left-radius: 30px;
 }
 .banner .banner-right .slide-content .item .desc {
